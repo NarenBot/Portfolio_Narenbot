@@ -56,6 +56,9 @@ body {
     color: #aaa;
 }
 
+.nav {
+    margin-bottom: 5px;
+}
 .nav a {
     display: block;
     margin: 5px 0;
