@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #0f0f0f;
+    color: #eaeaea;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 25%;
+    background: #141414;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-right: 2px solid #ff8c00;
+}
+
+.profile img {
+    width: 80px;
+    border-radius: 30%;
+    border: 3px solid #ff8c00;
+    margin-bottom: 15px;
+}
+
+.profile h1 {
+    color: #ff8c00;
+    font-size: 22px;
+}
+
+.certificate a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+    
+}
+
+.certificate a:hover {
+    color: #ff8c00;
+    transform: translateX(5px);
+}
+
+.role {
+    font-size: 16px;
+    color: #aaa;
+}
+
+.nav a {
+    display: block;
+    margin: 5px 0;
+    color: #eaeaea;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav a:hover {
+    color: #ff8c00;
+    transform: translateX(5px);
+}
+
+
+.social {
+    justify-content: center;
+    display: flex;
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.social a {
+    color: #ff8c00;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.social a:hover {
+    color: #ffffff;
+    transform: scale(1.2);
+}
+
+
+/* Content */
+.content {
+    width: 75%;
+    padding: 40px;
+    overflow-y: auto;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    color: #ff8c00;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.card {
+    background: #1e1e1e;
+    padding: 15px;
+    border-left: 4px solid #ff8c00;
+}
+
+.item {
+    margin-bottom: 20px;
+}
+
+.item ul{
+    margin-top: 5px;
+    margin-left: 20px;
+}

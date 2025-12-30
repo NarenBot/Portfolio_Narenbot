@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Narendran | Data Engineer</title>
+
+    <!-- Desktop & Mobile CSS -->
+    <link rel="stylesheet" href="css/desktop.css" />
+    <link rel="stylesheet" href="css/mobile.css" />
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet"/>
+    <!-- CloudFlare Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+</head>
+<body>
+
+<div class="container">
+    <!-- LEFT PANEL -->
+    <aside class="sidebar">
+        <section class="section">
+            <div class="profile">
+                <img src="images/profile.jpg" alt="Narendran Profile Photo" />
+                <h1>Narendran Mudadi</h1>
+                <p class="role">AWS Data Engineer</p>
+            </div>
+        </section>
+        <section class="section">
+            <div class="certificate">
+                <h2>Certificates</h2>
+                <a href="https://credentials.databricks.com/c030e946-b9a9-4e10-8a4a-8c7ecc8f3150">Databricks Certified Data Engineer Associate</a>
+                <a href="https://codebasics.io/certificate/CB-50-280891">SQL For Data Professionals</a>
+                <a href="https://s3.ap-south-1.amazonaws.com/internship.ineuron.ai/certificates/dec2665d-826d-4145-9e0e-20dd60ee1e82.pdf">Full Stack Data Science</a>
+            </div>
+        </section>
+        <section class="section">
+            <div class="education">
+                <h2>Education</h2>
+                <p>Information Technology, B.Tech</p>
+                <p>Sep 2005 – Apr 2009</p>
+                <p>Rajalakshmi Engineering College</p>
+            </div>
+        </section>
+
+        <nav class="nav">
+            <a href="#overview">Overview</a>
+            <a href="#skills">Technical Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#usecases">Use Cases</a>
+        </nav>
+
+        <div class="social">       
+            <a href="mailto:narendas10@gmail.com" title="Email">
+                <i class="fa-solid fa-envelope"></i></a>
+            <a href="tel:+919884863650" title="Phone">
+                <i class="fa-solid fa-phone"></i></a>
+            <a href="https://www.linkedin.com/in/narendran-mudadi/" target="_blank" title="LinkedIn">
+                <i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/NarenBot" target="_blank" title="GitHub">
+                <i class="fa-brands fa-github"></i></a>        
+        </div>
+
+    </aside>
+
+    <!-- RIGHT PANEL -->
+    <main class="content">
+
+        <section id="overview" class="section">
+            <h2>Overview</h2>
+            <p>
+                Data Engineer with 4 years of experience in designing, developing and optimizing data pipelines and ETL workflows in cloud environments. Passionate about building high-performance data platforms and automation-driven solutions.
+            </p>
+        </section>
+
+        <section id="skills" class="section">
+            <h2>Technical Skills</h2>
+            <div class="grid">
+                <div class="card">Python, SQL, PySpark</div>
+                <div class="card">AWS: S3, Glue, Redshift, Lambda</div>
+                <div class="card">Spark, Kafka, Flink, NiFi</div>
+                <div class="card">Airflow, Step Functions</div>
+                <div class="card">MySQL, PostgreSQL, Cassandra</div>
+                <div class="card">Docker, Git, CI/CD</div>
+            </div>
+        </section>
+
+        <section id="experience" class="section">
+            <h2>Professional Experience</h2>
+            <div class="timeline">
+                <div class="item">
+                    <h4>Data Science Associate | June 2023 – Mar 2025</h4>
+                    <h4>Physics Wallah(iNeuron.ai) | Bengaluru</h4>
+                    <ul>
+                        <li>Designed and implemented scalable ETL pipelines using AWS Glue and PySpark to process 50–60 GB of data daily, saving the output in Parquet format.</li>
+                        <li>Implemented partitioning and caching strategies in PySpark to manage large datasets effectively, improving query performance and minimizing memory consumption.</li>
+                        <li>Collaborated with analytics and business teams to deliver actionable insights from structured and semi-structured data.</li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <h4>Python Data Engineer | April 2020 – June 2022</h4>
+                    <h4>Senior Graphic Designer | June 2012 – Mar 2020</h4>
+                    <h4>RR Donnelley | Chennai</h4>
+                    <ul>
+                        <li>Implemented data cleansing and validation pipelines using PySpark to standardize and enrich structured and unstructured data before loading it into AWS Redshift and S3.</li>
+                        <li>Generated PDF files from extracted API data using Python, stored them in S3 for scalable access and managed references in PostgreSQL for efficient tracking.</li>
+                        <li>Implemented API monitoring and auditing by logging response_status, extraction_time and metadata in CassandraDB, ensuring operational visibility and compliance.</li>
+                        <li>Integrated Kafka with Flink for real-time event processing and streamed the processed data into S3.</li>
+                        <li>Reduced storage costs by 50-60% through optimized data partitioning and compression in S3 and Redshift.</li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <h4>Web Designer | Feb 2012 – June 2012</h4>
+                    <h4>Concentrix | Chennai</h4>
+                </div>
+                <div class="item">
+                    <h4>Programmer | Oct 2009 – Jan 2011</h4>
+                    <h4>Intellectual Info Technologies | Chennai</h4>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <h2>Recent Projects</h2>
+            <div class="item">
+                <h4>Real-time E-commerce Analytics Pipeline</h4>
+                <ul>
+                    <li>Designed a real-time data pipeline using AWS Kinesis to ingest and process user activity logs.</li>
+                    <li>Store data like session_id, user_id, product_views and time_spent in CassandraDB for personalized recommendations.</li>
+                    <li>Enabled fraud detection alerts using AWS Lambda and SNS notifications.</li>
+                </ul>
+            </div>
+            <div class="item">
+                <h4>Automated Financial ETL using AWS Glue</h4>
+                <ul>
+                    <li>Developed an ETL pipeline using AWS Glue to extract data from RDS, transform it using PySpark and load it into Redshift.</li>
+                    <li>Applied PySpark DataFrame APIs for efficient data transformations, reducing processing time by 30%.</li>
+                    <li>Implemented AWS Step Functions to orchestrate multi-step data processing tasks.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="usecases" class="section">
+            <h2>Use Cases</h2>
+            <div class="item">
+                <h4>Customer Churn Prediction using AWS SageMaker</h4>
+                <ul>
+                    <li>Collected and preprocessed customer transaction data using AWS Glue.</li>
+                    <li>Built and deployed an ML model on SageMaker to predict churn probabilities.</li>
+                    <li>Integrated predictions with AWS Lambda to trigger retention campaigns via AWS SES.</li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>

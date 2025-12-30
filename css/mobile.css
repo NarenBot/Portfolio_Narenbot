@@ -1,0 +1,26 @@
+@media (max-width: 768px) {
+
+    .container {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        text-align: center;
+        border-right: none;
+        border-bottom: 2px solid #ff8c00;
+    }
+    .social {
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .content {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
