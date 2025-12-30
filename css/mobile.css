@@ -79,6 +79,19 @@
     .section h2 {
         font-size: 18px;
     }
+    
+
+    /* Resume Button */
+    .overview-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    .resume-btn {
+        align-self: flex-end;
+    }
+
 
     /* Grid → Stack cards */
     .grid {
